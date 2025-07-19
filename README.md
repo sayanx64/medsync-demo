@@ -25,7 +25,7 @@
 
 ## 🚀 Features
 
-- Custom API module based on `oe-module-api-explorer` : [Live Demo](http://34.93.81.71/medsync-demo/modules/oe-module-api-explorer/client_register.php?regen=1&api_site=localhost)
+- Custom API module based on `oe-module-api-explorer` : [Here](http://34.93.81.71/medsync-demo/modules/oe-module-api-explorer/client_register.php?regen=1&api_site=localhost)
 - Secure OAuth-based authentication
 - Modular architecture for easy deployment
 - Runs on Ubuntu VM, tested with Apache2 + MySQL
