@@ -30,6 +30,14 @@
 - Modular architecture for easy deployment
 - Runs on Ubuntu VM, tested with Apache2 + MySQL
 
+## 📸 Screenshots
+
+### Login Page  
+![Login Page](screenshots/image1.png)
+
+### Dashboard  
+![Dashboard](screenshots/image2.png)
+
 ---
 
 ## 🧑‍💻 How to Contribute
