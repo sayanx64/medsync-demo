@@ -38,6 +38,8 @@
 ### Dashboard  
 ![Dashboard](screenshots/image2.png)
 
+### API Explorer (Custom Module by Jerry Padgett)
+![API Explorer](screenshots/image3.png)
 ---
 
 ## 🧑‍💻 How to Contribute
