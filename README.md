@@ -2,66 +2,67 @@
 ![Styling Status](https://github.com/openemr/openemr/workflows/Styling/badge.svg?branch=rel-703)
 ![Testing Status](https://github.com/openemr/openemr/workflows/Test/badge.svg?branch=rel-703)
 
-[![Backers on Open Collective](https://opencollective.com/openemr/backers/badge.svg)](#backers) [![Sponsors on Open Collective](https://opencollective.com/openemr/sponsors/badge.svg)](#sponsors)
+[![Backers on Open Collective](https://opencollective.com/openemr/backers/badge.svg)](#backers) 
+[![Sponsors on Open Collective](https://opencollective.com/openemr/sponsors/badge.svg)](#sponsors)
 
-# OpenEMR
+# MedSync (Based on OpenEMR)
 
-[OpenEMR](https://open-emr.org) is a Free and Open Source electronic health records and medical practice management application. It features fully integrated electronic health records, practice management, scheduling, electronic billing, internationalization, free support, a vibrant community, and a whole lot more. It runs on Windows, Linux, Mac OS X, and many other platforms.
+**MedSync** is a MedTech research project by three students - Sriyam Dasgupta, Sayan Pal and Ankit Kumar, focused on improving patient data flow in Indian hospitals. Built on OpenEMR and deployed on Google Cloud, it includes API integration and OAuth-based authentication.
 
-### Contributing
+---
 
-OpenEMR is a leader in healthcare open source software and comprises a large and diverse community of software developers, medical providers and educators with a very healthy mix of both volunteers and professionals. [Join us and learn how to start contributing today!](https://open-emr.org/wiki/index.php/FAQ#How_do_I_begin_to_volunteer_for_the_OpenEMR_project.3F)
+## 🔧 Team Members
 
-> Already comfortable with git? Check out [CONTRIBUTING.md](CONTRIBUTING.md) for quick setup instructions and requirements for contributing to OpenEMR by resolving a bug or adding an awesome feature 😊.
+- **Sayan Pal**
+- **Sriyam Dasgupta** 
+- **Ankit Kumar** 
 
-### Support
+---
 
-Community and Professional support can be found [here](https://open-emr.org/wiki/index.php/OpenEMR_Support_Guide).
+## 🔐 Demo Credentials
 
-Extensive documentation and forums can be found on the [OpenEMR website](https://open-emr.org) that can help you to become more familiar about the project 📖.
+|  Role |    Username    |     Password     |
+|-------|----------------|------------------|
+| Admin | `UNN-admin-08` | `Admin@2024open` |
 
-### Reporting Issues and Bugs
+> **Note:** These credentials are for demonstration purposes only. Do not use them in production environments.
 
-Report these on the [Issue Tracker](https://github.com/openemr/openemr/issues). If you are unsure if it is an issue/bug, then always feel free to use the [Forum](https://community.open-emr.org/) and [Chat](https://www.open-emr.org/chat/) to discuss about the issue 🪲.
+---
 
-### Reporting Security Vulnerabilities
+## 🚀 Features
 
-Check out [SECURITY.md](.github/SECURITY.md)
+- Custom API module based on `oe-module-api-explorer`
+- Secure OAuth-based authentication
+- Modular architecture for easy deployment
+- Runs on Ubuntu VM, tested with Apache2 + MySQL
 
-### API
+---
 
-Check out [API_README.md](API_README.md)
+## 🧑‍💻 How to Contribute
 
-### Docker
+MedSync builds upon OpenEMR and welcomes developers, students, and healthcare technologists to contribute. Check out the original [OpenEMR CONTRIBUTING.md](https://github.com/openemr/openemr/blob/master/CONTRIBUTING.md) for development guidelines.
 
-Check out [DOCKER_README.md](DOCKER_README.md)
+---
 
-### FHIR
+## 📚 Resources
 
-Check out [FHIR_README.md](FHIR_README.md)
+- [OpenEMR Docs](https://open-emr.org/wiki/index.php/Main_Page)
+- [OpenEMR Forums](https://community.open-emr.org/)
+- [API Explorer Docs](modules/oe-module-api-explorer/README.md) *(custom module)*
 
-### For Developers
+---
 
-If using OpenEMR directly from the code repository, then the following commands will build OpenEMR (Node.js version 20.* is required) :
+## 🐞 Reporting Issues
 
-```shell
+Please report bugs or suggestions via the GitHub [Issues tab](https://github.com/your-repo-name/issues).  
+You can also reach out through the [OpenEMR Community Chat](https://www.open-emr.org/chat/).
+
+---
+
+## 🧪 Developer Setup
+
+```bash
 composer install --no-dev
 npm install
 npm run build
 composer dump-autoload -o
-```
-
-### Contributors
-
-This project exists thanks to all the people who have contributed. [[Contribute]](CONTRIBUTING.md).
-<a href="https://github.com/openemr/openemr/graphs/contributors"><img src="https://opencollective.com/openemr/contributors.svg?width=890" /></a>
-
-
-### Sponsors
-
-Thanks to our [ONC Certification Major Sponsors](https://www.open-emr.org/wiki/index.php/OpenEMR_Certification_Stage_III_Meaningful_Use#Major_sponsors)!
-
-
-### License
-
-[GNU GPL](LICENSE)
