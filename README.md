@@ -11,7 +11,7 @@
 - **Ankit Kumar** 
 
 ---
-**Try it out:** [Live Demo on VM](http://34.93.81.71/medsync-demo)
+**Try it out:** [Live Demo](http://34.93.81.71/medsync-demo)
 
 ## 🔐 Demo Credentials
 
