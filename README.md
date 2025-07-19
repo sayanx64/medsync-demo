@@ -1,10 +1,3 @@
-![Syntax Status](https://github.com/openemr/openemr/workflows/Syntax/badge.svg?branch=rel-703)
-![Styling Status](https://github.com/openemr/openemr/workflows/Styling/badge.svg?branch=rel-703)
-![Testing Status](https://github.com/openemr/openemr/workflows/Test/badge.svg?branch=rel-703)
-
-[![Backers on Open Collective](https://opencollective.com/openemr/backers/badge.svg)](#backers) 
-[![Sponsors on Open Collective](https://opencollective.com/openemr/sponsors/badge.svg)](#sponsors)
-
 # MedSync (Based on OpenEMR)
 
 **MedSync** is a MedTech research project by three students - Sriyam Dasgupta, Sayan Pal and Ankit Kumar, focused on improving patient data flow in Indian hospitals. Built on OpenEMR and deployed on Google Cloud, it includes API integration and OAuth-based authentication.
@@ -48,14 +41,14 @@ MedSync builds upon OpenEMR and welcomes developers, students, and healthcare te
 
 - [OpenEMR Docs](https://open-emr.org/wiki/index.php/Main_Page)
 - [OpenEMR Forums](https://community.open-emr.org/)
-- [API Explorer Docs](modules/oe-module-api-explorer/README.md) *(custom module)*
+- [API Explorer Docs](modules/oe-module-api-explorer/README.md) *(custom module by Jerry Padgett)*
 
 ---
 
 ## 🐞 Reporting Issues
 
-Please report bugs or suggestions via the GitHub [Issues tab](https://github.com/your-repo-name/issues).  
-You can also reach out through the [OpenEMR Community Chat](https://www.open-emr.org/chat/).
+For bugs, suggestions, or feature requests, open an issue via the [GitHub Issues tab](https://github.com/sayanx64/medsync-demo/issues).  
+You can also join the discussion on the [OpenEMR Community Chat](https://www.open-emr.org/chat/).
 
 ---
 
